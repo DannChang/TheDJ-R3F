@@ -1,5 +1,22 @@
 import React, { useRef, useState } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import * as THREE from 'three';
+import { TorusGeometry } from 'three';
+
+function Torus(props) {
+  const mesh = useRef()
+
+  return(
+    <mesh
+      {...props}
+      ref={mesh} 
+      scale={[0.25, 0.25, 0.25]}
+    >
+    <torusGeometry args={[10, 3, 16, 100]} />
+    </mesh>
+  )
+}
 
 function Box(props) {
   // This reference will give us direct access to the mesh
@@ -15,12 +32,12 @@ function Box(props) {
     <mesh
       {...props}
       ref={mesh}
-      scale={active ? [1.5, 1.5, 1.5] : [1, 1, 1]}
+      scale={active ? [2.5, 2.5, 1.5] : [1, 1, 1]}
       onClick={(e) => setActive(!active)}
       onPointerOver={(e) => setHover(true)}
       onPointerOut={(e) => setHover(false)}>
       <boxBufferGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
+      <meshStandardMaterial color={hovered ? 'blue' : 'orange'} />
     </mesh>
   )
 }
@@ -33,6 +50,7 @@ export default function App() {
       <pointLight position={[-10, -10, -10]} />
       <Box position={[-1.2, 0, 0]} />
       <Box position={[1.2, 0, 0]} />
+      <Torus position={[-6, 0, 0]} />
     </Canvas>
   )
 }
