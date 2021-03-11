@@ -1,7 +1,7 @@
 import React, { createContext, useRef, useContext } from "react";
 import { useFrame, useThree } from "react-three-fiber";
 import lerp from "lerp";
-import state from "./state";
+import States from "./States";
 
 const offsetContext = createContext(0);
 
@@ -10,9 +10,9 @@ function Section({ children, offset, factor, ...props }) {
   const ref = useRef();
   offset = offset !== undefined ? offset : parentOffset;
   useFrame(() => {
-    const curY = ref.current.position.y;
-    const curTop = state.top.current / aspect;
-    ref.current.position.y = lerp(curY, (curTop / state.zoom) * factor, 0.1);
+    const curY = ref.current.position.y
+    const curTop = States.top.current / aspect;
+    ref.current.position.y = lerp(curY, (curTop / States.zoom) * factor, 0.1);
   });
   return (
     <offsetContext.Provider value={offset}>
@@ -24,7 +24,7 @@ function Section({ children, offset, factor, ...props }) {
 }
 
 function useSection() {
-  const { sections, pages, zoom } = state;
+  const { sections, pages, zoom } = States;
   const { size, viewport } = useThree();
   const offset = useContext(offsetContext);
   const viewportWidth = viewport.width;

@@ -14,7 +14,7 @@ export default function Header() {
               <a href='/'>Packages</a>
             </li>
             <li>
-              <a href='/'>Our story</a>
+              <a href='/'>About</a>
             </li>
             <li>
               <a href='/'>Team</a>

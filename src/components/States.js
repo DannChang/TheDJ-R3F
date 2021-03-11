@@ -1,10 +1,10 @@
 import { createRef } from "react";
 
-const state = {
+const States = {
   sections: 3,
   pages: 3,
   zoom: 1,
   top: createRef(),
 };
 
-export default state;
+export default States;
