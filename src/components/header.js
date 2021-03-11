@@ -1,0 +1,30 @@
+import React from "react";
+
+export default function Header() {
+  return (
+    <header>
+      <div className='header-inner'>
+        <div className='logo'>SYDAN</div>
+        <nav>
+          <ul>
+            <li>
+              <a href='/'>Discover</a>
+            </li>
+            <li>
+              <a href='/'>Packages</a>
+            </li>
+            <li>
+              <a href='/'>Our story</a>
+            </li>
+            <li>
+              <a href='/'>Team</a>
+            </li>
+            <li className='btn'>
+              <a href='/'>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+}
