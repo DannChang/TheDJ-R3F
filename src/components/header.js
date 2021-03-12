@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>SYDAN</div>
+        <div className='logo'>Retro Racing.</div>
         <nav>
           <ul>
             <li>

@@ -1,0 +1,6 @@
+
+const Lights = ( ) => {
+    return (
+        <ambientLight />
+    )
+}
