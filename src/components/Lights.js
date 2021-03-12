@@ -1,6 +1,0 @@
-
-const Lights = ( ) => {
-    return (
-        <ambientLight />
-    )
-}

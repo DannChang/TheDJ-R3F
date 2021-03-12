@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>Retro Racing.</div>
+        <div className='logo'>The DJ:</div>
         <nav>
           <ul>
             <li>

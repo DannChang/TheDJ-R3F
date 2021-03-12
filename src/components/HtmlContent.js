@@ -1,30 +1,42 @@
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { Html } from '@react-three/drei';
 import { Section } from './Section';
 import Model from './Model';
 import { useFrame } from 'react-three-fiber';
 
-const HTMLContent = ({ children, modelPath, positionY, scale }) => {
+// Calculates how much of a target element overlaps (or intersects) 
+// the visible portion of a page, aka "viewport"
+import { useInView } from 'react-intersection-observer';
+
+const HTMLContent = ({ domContent, bgColor, children, modelPath, positionY, scale, meshPosition, meshRotation }) => {
     
     const ref = useRef();
     useFrame(() => (ref.current.rotation.y += 0.01));
+
+    const [refItem, inView] = useInView({
+        threshold: 0
+    });
+    useEffect(() => {
+        inView && (document.body.style.background = bgColor)
+    }, [inView]);
 
     return (
         <Section factor={1.5} offset={1}>
             <group position={[-25, positionY, 0]}>
                 <mesh 
                     ref={ref}
-                    position={[100, 0, 0]}
+                    position={meshPosition}
                     scale={scale}
-                    rotation={[Math.PI * 0.1, -Math.PI * .35, 0 ]}
+                    rotation={meshRotation}
                 >
                     <Model modelPath={modelPath}/>
                 </mesh>
-                <Html fullscreen>
-                    {children}
+                <Html portal={domContent} fullscreen>
+                    <div className="container" ref={refItem}>
+                        {children}
+                    </div>
                 </Html>
             </group>
-
         </Section>
     );
 };
