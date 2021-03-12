@@ -1,7 +1,7 @@
 import { useGLTFLoader } from 'drei';
 
 const Model = () => {
-    const gltf = useGLTFLoader('/pioneer.gltf', false)
+    const gltf = useGLTFLoader('/DJmixer.gltf', true)
 
     return (
       <primitive object={gltf.scene} dispose={null} />

@@ -5,10 +5,10 @@ import Model from './Model';
 const HTMLContent = () => {
     return (
         <Section factor={1.5} offset={1}>
-            <group position={[0, 250, 0]}>
-                {/* <mesh position={[0, 100, 0]}>
+            <group position={[0, 270, 0]}>
+                <mesh position={[0, -100, 0]}>
                     <Model />
-                </mesh> */}
+                </mesh>
                 <Html fullscreen>
                     <div className='container'>
                     <h1 className='title'>Hello</h1>
