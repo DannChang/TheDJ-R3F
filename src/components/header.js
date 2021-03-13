@@ -7,7 +7,7 @@ export default function Header() {
         <div className='logo'>The DJ:</div>
         <nav>
           <ul>
-            <li>
+            {/* <li>
               <a href='/'>Discover</a>
             </li>
             <li>
@@ -18,9 +18,9 @@ export default function Header() {
             </li>
             <li>
               <a href='/'>Team</a>
-            </li>
+            </li> */}
             <li className='btn'>
-              <a href='/'>Contact</a>
+              <a href='https://dannchang.com/'>Contact</a>
             </li>
           </ul>
         </nav>

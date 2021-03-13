@@ -31,25 +31,26 @@ export default function App() {
           <HTMLContent 
             bgColor={'#f15946'}
             domContent={domContent}
-            modelPath='/disco-ball/scene.gltf'
+            modelPath='/groot/scene.gltf'
             positionY={0}
-            scale={[0.25, 0.25, 0.25]}
-            meshPosition={[100, -15, 0]}
+            scale={[25, 25, 25]}
+            meshPosition={[100, -30, 0]}
             meshRotation={[Math.PI * 0.1, 0, 0 ]}
           >
-            <h1 className='title'>Dance</h1>
+            <h1 className='title'>Dances</h1>
           </HTMLContent>
 
           <HTMLContent 
             bgColor={'#d3c600'}
             domContent={domContent}
-            modelPath="/speaker/source/PA_Speakers.glb"
+            // modelPath="/speaker/source/PA_Speakers.glb"
+            modelPath="/microphone/scene.gltf"
             positionY={-250}
-            scale={[10, 10, 10]}
-            meshPosition={[100, -15, 0]}
-            meshRotation={[Math.PI * 0.15, 0, 0 ]}
+            scale={[50, 50, 50]}
+            meshPosition={[100, 25, 0]}
+            meshRotation={[0, 0, 0 ]}
           >
-            <h1 className='title'>Sing</h1>
+            <h1 className='title'>Sings</h1>
           </HTMLContent>
 
           <HTMLContent 
@@ -58,10 +59,10 @@ export default function App() {
             modelPath="/dj-mixer/scene.gltf"
             positionY={250}
             scale={[50, 50, 50]}
-            meshPosition={[100, 0, 0]}
-            meshRotation={[Math.PI * 0.15, 0, 0 ]}
+            meshPosition={[115, 0, 0]}
+            meshRotation={[ Math.PI * 0.15, 0, 0 ]}
           >
-            <h1 className='title'>Party</h1>
+            <h1 className='title'>Parties</h1>
           </HTMLContent>
         </Suspense>
 

@@ -1,0 +1,407 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 17792,
+      "max": [
+        0.16348324716091156,
+        0.15354292094707489,
+        1.2670650482177734
+      ],
+      "min": [
+        -0.15110662579536438,
+        -0.16095069050788879,
+        -0.23144131898880005
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 213504,
+      "componentType": 5126,
+      "count": 17792,
+      "max": [
+        0.99994367361068726,
+        0.99997717142105103,
+        0.99998337030410767
+      ],
+      "min": [
+        -0.99993401765823364,
+        -0.99965828657150269,
+        -0.99995052814483643
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 17792,
+      "max": [
+        0.41960784792900085,
+        0.40392157435417175,
+        0.40392157435417175,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 106776,
+      "max": [
+        17791
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 427008,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.14284482598304749,
+        0.16598942875862122,
+        1.3690985441207886
+      ],
+      "min": [
+        0.021519510075449944,
+        0.014231041073799133,
+        0.49864420294761658
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1213392,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99997150897979736,
+        0.9999316930770874,
+        0.99998319149017334
+      ],
+      "min": [
+        -0.99998825788497925,
+        -0.9999503493309021,
+        -0.99997138977050781
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 284672,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 427104,
+      "componentType": 5125,
+      "count": 346026,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1999776,
+      "componentType": 5126,
+      "count": 38608,
+      "max": [
+        0.14284482598304749,
+        0.16598942875862122,
+        1.3689398765563965
+      ],
+      "min": [
+        0.021519510075449944,
+        0.014282040297985077,
+        0.49864420294761658
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2463072,
+      "componentType": 5126,
+      "count": 38608,
+      "max": [
+        0.99989449977874756,
+        0.99988347291946411,
+        0.99998319149017334
+      ],
+      "min": [
+        -0.99999362230300903,
+        -0.9999503493309021,
+        -0.99997138977050781
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1333184,
+      "componentType": 5126,
+      "count": 38608,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1811208,
+      "componentType": 5125,
+      "count": 152526,
+      "max": [
+        38607
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "urbanmasque (https://sketchfab.com/urbanmasque)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/07c5d34f8abc439d806be0eb5e0175d0",
+      "title": "Classic Microphone"
+    },
+    "generator": "Sketchfab-3.29.4",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2421312,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2926368,
+      "byteOffset": 2421312,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1950912,
+      "byteOffset": 5347680,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 7298592,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.63214532099999998,
+          0.63214532099999998,
+          0.63214532099999998,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.30724861839999995
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Layer_2base__0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Layer_4mic_head__0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Layer_4mic_head__0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 10,
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        -0.0050382912158966064,
+        -1.1376551389694214,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "2f669b7c569f4be89c93cd5b178d4b94.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Layer_2base"
+    },
+    {
+      "mesh": 0,
+      "name": "Layer_2base__0"
+    },
+    {
+      "children": [
+        7,
+        8
+      ],
+      "name": "Layer_4mic_head"
+    },
+    {
+      "mesh": 1,
+      "name": "Layer_4mic_head__0"
+    },
+    {
+      "mesh": 2,
+      "name": "Layer_4mic_head__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
