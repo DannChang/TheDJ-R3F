@@ -1,4 +1,4 @@
-A showcase of React-Three-Fiber to implement ThreeJS modelling in React:
+Made with React-Three-Fiber. 
 
 https://hardcore-knuth-5bf051.netlify.app/
 
