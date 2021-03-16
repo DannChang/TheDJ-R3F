@@ -38,9 +38,10 @@ body,
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: right;
+  flex-direction: column;
 }
+
 
 
 header {
@@ -79,7 +80,7 @@ header {
             text-transform: capitalize;
             text-decoration: none;
             color: #fff;
-            @media (max-width: 1000px) {
+            @media (max-width: 1100px) {
               display: none;
             }
 
@@ -93,15 +94,21 @@ header {
 .title {
   font-size: 10rem;
   text-align: center;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   color: #fff;
   span {
-    display: block;
+    display: flex;
   }
-  @media (max-width: 1440px) {
-    font-size: 6rem;
-    flex-direction: column;
+  .small {
+    font-size: 2rem;
+  }
+  .top {
+    font-size: 2rem;
+    margin-top: 10%;
+  }
+  @media (max-width: 1100px) {
+    display: none;
   }
 }
 
@@ -117,12 +124,6 @@ header {
   flex: 1;
 }
 
-// @media only screen and (max-aspect-ratio: 8/7) {
-//   .model {
-//     flex-direction: column;
-//     text-align:center;
-//   }
-// }
 
 .loading {
   position: absolute;

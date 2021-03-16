@@ -7,10 +7,18 @@ import { useFrame } from 'react-three-fiber';
 // Calculates how much of a target element overlaps (or intersects) the visible portion of a page, aka "viewport"
 import { useInView } from 'react-intersection-observer';
 
-const HTMLContent = ({ domContent, bgColor, children, modelPath, positionY, scale, meshPosition, meshRotation }) => {
+const HTMLContent = ({ 
+    domContent, 
+    bgColor, 
+    children, 
+    modelPath, 
+    positionY, 
+    scale, 
+    meshPosition, 
+    meshRotation }) => {
     
     const ref = useRef();
-    useFrame(() => (ref.current.rotation.y += 0.015));
+    useFrame(() => (ref.current.rotation.y += 0.025));
 
     const [refItem, inView] = useInView({
         threshold: 0
@@ -23,6 +31,7 @@ const HTMLContent = ({ domContent, bgColor, children, modelPath, positionY, scal
         <Section factor={1.5} offset={1}>
             <group position={[-25, positionY, 0]}>
                 <mesh 
+                    className = "mesh" 
                     ref={ref}
                     position={meshPosition}
                     scale={scale}

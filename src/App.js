@@ -28,41 +28,40 @@ export default function App() {
         <spotLight intensity={1} position={[1000, 1000, 0]} />
 
         <Suspense fallback={null}>
+        <HTMLContent 
+            bgColor={'#571ec1'}
+            domContent={domContent}
+            modelPath="/dj-mixer/scene.gltf"
+            positionY={250}
+            scale={[85, 85, 85]}
+            meshPosition={[25, 0, 0]}
+            meshRotation={[ Math.PI * 0.2, 0, 0 ]}
+          >
+            <h1 className='title'>Parties</h1>
+          </HTMLContent>
           <HTMLContent 
             bgColor={'#f15946'}
             domContent={domContent}
             modelPath='/groot/scene.gltf'
             positionY={0}
             scale={[25, 25, 25]}
-            meshPosition={[100, -30, 0]}
+            meshPosition={[25, -40, 0]}
             meshRotation={[Math.PI * 0.1, 0, 0 ]}
           >
             <h1 className='title'>Dances</h1>
           </HTMLContent>
 
           <HTMLContent 
-            bgColor={'#d3c600'}
+            bgColor={'#f7990c'}
             domContent={domContent}
             // modelPath="/speaker/source/PA_Speakers.glb"
             modelPath="/microphone/scene.gltf"
             positionY={-250}
-            scale={[50, 50, 50]}
-            meshPosition={[100, 25, 0]}
-            meshRotation={[0, 0, 0 ]}
+            scale={[60, 60, 60]}
+            meshPosition={[20, 25, 0]}
+            meshRotation={[0, 0, 0]}
           >
             <h1 className='title'>Sings</h1>
-          </HTMLContent>
-
-          <HTMLContent 
-            bgColor={'#571ec1'}
-            domContent={domContent}
-            modelPath="/dj-mixer/scene.gltf"
-            positionY={250}
-            scale={[50, 50, 50]}
-            meshPosition={[115, 0, 0]}
-            meshRotation={[ Math.PI * 0.15, 0, 0 ]}
-          >
-            <h1 className='title'>Parties</h1>
           </HTMLContent>
         </Suspense>
 
