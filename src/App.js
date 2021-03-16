@@ -33,7 +33,7 @@ export default function App() {
             domContent={domContent}
             modelPath="/dj-mixer/scene.gltf"
             positionY={250}
-            scale={[85, 85, 85]}
+            scale={[50, 50, 50]}
             meshPosition={[25, 0, 0]}
             meshRotation={[ Math.PI * 0.2, 0, 0 ]}
           >
