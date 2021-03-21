@@ -1,4 +1,4 @@
-A simple scroll effect made with React-Three-Fiber. 
+A simple scroll effect and 3D model loading with React-Three-Fiber. 
 The chatbot is an API implementation from WatsonAI. Try it out!
 
 https://hardcore-knuth-5bf051.netlify.app/
