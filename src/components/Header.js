@@ -20,7 +20,7 @@ export default function Header() {
               <a href='/'>Team</a>
             </li> */}
             <li className='btn'>
-              <a href='https://dannchang.com/'>Contact</a>
+              <a href='https://dannchang.github.io/'>Contact</a>
             </li>
           </ul>
         </nav>
