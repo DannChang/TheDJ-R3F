@@ -45,5 +45,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+      <!-- Watson Assistant Chatbot-->
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "72062f02-77b4-44f4-86fa-14e5fade011d", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "96621b33-fe15-4c9f-987d-fa69ad9460d8", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
   </body>
 </html>
