@@ -1,4 +1,4 @@
-A simple scroll effect and 3D model loading with React-Three-Fiber. 
+A showcase of 3D model loading with React-Three-Fiber. 
 The chatbot is an API implementation from WatsonAI. Try it out!
 
 https://hardcore-knuth-5bf051.netlify.app/
@@ -8,4 +8,11 @@ https://hardcore-knuth-5bf051.netlify.app/
 
 
 Modelling credits (Sketchfab): DJ mixer - gusnk, groot - Chemaron, microphrone - urbanmasque
-*Use of models are under Creative Common Licenses*
+
+/*Use of models are under Creative Common Licenses*/
+
+# Installation
+To try out the code yourself, download or clone the respository and run ```npm install``` to install its dependencies.
+
+The code is compiled in Webpack. To run a developement server, run the script ```npm run dev```
+
