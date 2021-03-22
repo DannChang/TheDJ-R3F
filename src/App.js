@@ -64,7 +64,6 @@ export default function App() {
             <h1 className='title'>Sings</h1>
           </HTMLContent>
         </Suspense>
-
       </Canvas>
 
       <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>

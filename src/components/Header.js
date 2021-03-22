@@ -1,5 +1,6 @@
 import React from "react";
 
+// Nav bar/header menu 
 export default function Header() {
   return (
     <header>
@@ -7,18 +8,6 @@ export default function Header() {
         <div className='logo'>The DJ:</div>
         <nav>
           <ul>
-            {/* <li>
-              <a href='/'>Discover</a>
-            </li>
-            <li>
-              <a href='/'>Packages</a>
-            </li>
-            <li>
-              <a href='/'>About</a>
-            </li>
-            <li>
-              <a href='/'>Team</a>
-            </li> */}
             <li className='btn'>
               <a href='https://dannchang.github.io/'>Contact</a>
             </li>

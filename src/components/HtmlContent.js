@@ -1,8 +1,9 @@
 import { useRef, useEffect } from 'react'
-import { Html } from '@react-three/drei';
+import { Html } from '@react-three/drei'; // allows for pure html in r3f
 import { Section } from './Section';
 import Model from './Model';
 import { useFrame } from 'react-three-fiber';
+
 
 // Calculates how much of a target element overlaps (or intersects) the visible portion of a page, aka "viewport"
 import { useInView } from 'react-intersection-observer';
@@ -17,9 +18,11 @@ const HTMLContent = ({
     meshPosition, 
     meshRotation }) => {
     
+    // references current model being rotated
     const ref = useRef();
     useFrame(() => (ref.current.rotation.y += 0.025));
-
+    
+    // 
     const [refItem, inView] = useInView({
         threshold: 0
     });
