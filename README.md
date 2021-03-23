@@ -14,5 +14,5 @@ Modelling credits (Sketchfab): DJ mixer - gusnk, groot - Chemaron, microphrone -
 # Installation
 To try out the code yourself, download or clone the respository and run ```npm install``` to install its dependencies.
 
-The code is compiled in Webpack. To run a developement server, run the script ```npm run dev```
+As it is a React application ```npm start``` will run a development server.
 
