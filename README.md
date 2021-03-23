@@ -4,7 +4,8 @@ The chatbot is an API implementation from WatsonAI. Try it out!
 https://hardcore-knuth-5bf051.netlify.app/
 
 
-![image](https://user-images.githubusercontent.com/27746994/111922241-fc9e0600-8a55-11eb-9e4b-c93b03046557.png)
+![portfolio-1](https://user-images.githubusercontent.com/27746994/112206777-8b845d00-8bd3-11eb-8b26-b3724508df85.gif)
+
 
 
 Modelling credits (Sketchfab): DJ mixer - gusnk, groot - Chemaron, microphrone - urbanmasque
