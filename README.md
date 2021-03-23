@@ -6,6 +6,7 @@ https://hardcore-knuth-5bf051.netlify.app/
 
 ![portfolio-1](https://user-images.githubusercontent.com/27746994/112206777-8b845d00-8bd3-11eb-8b26-b3724508df85.gif)
 
+![portfolio-1-2](https://user-images.githubusercontent.com/27746994/112215083-2d5c7780-8bdd-11eb-859b-de7e09faffad.gif)
 
 
 Modelling credits (Sketchfab): DJ mixer - gusnk, groot - Chemaron, microphrone - urbanmasque
